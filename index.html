@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Gold Slot Machine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Status Bar -->
+    <div class="status-bar">
+        <div class="status-left">
+            <span class="time">12:48</span>
+            <span class="bell">🔔</span>
+        </div>
+        <div class="status-center">
+            <div class="logo">👑</div>
+        </div>
+        <div class="status-right">
+            <span class="signal">📶</span>
+            <span class="wifi">📶</span>
+            <span class="battery">94%</span>
+        </div>
+    </div>
+
+    <!-- Game Header -->
+    <div class="game-header">
+        <div class="header-left">
+            <button class="close-btn">✕</button>
+            <div class="balance-display">
+                <div class="money-icon">💰</div>
+                <div class="balance-amount">$0.00</div>
+                <div class="timers">
+                    <span>0:48:00</span>
+                    <span>04:26</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="jackpots">
+            <div class="jackpot single-level">
+                <div class="jackpot-label">SINGLE LEVEL</div>
+                <div class="jackpot-amount">$2.2M</div>
+                <div class="jackpot-plus">+</div>
+            </div>
+            <div class="jackpot multi-level">
+                <div class="jackpot-label">MULTI LEVEL</div>
+                <div class="jackpot-amount">$970K</div>
+                <div class="jackpot-plus">+</div>
+            </div>
+        </div>
+        
+        <div class="header-right">
+            <div class="check-icon">✅</div>
+            <button class="add-funds-btn">+</button>
+            <div class="chevron-down">▼</div>
+            <button class="menu-btn">▼▼</button>
+        </div>
+    </div>
+
+    <!-- Main Game Area -->
+    <div class="game-container">
+        <div class="game-title">
+            <span class="triple-text">TRIPLE</span>
+            <span class="gold-text">GOLD</span>
+        </div>
+
+        <!-- Paytable -->
+        <div class="paytable">
+            <div class="paytable-lines">
+                <div class="line-label">1ST LINE</div>
+                <div class="line-label">2ND LINE</div>
+                <div class="line-label">3RD LINE</div>
+                <div class="line-label">4TH LINE</div>
+                <div class="line-label">5TH LINE</div>
+            </div>
+            
+            <div class="paytable-symbols">
+                <div class="symbol-column">
+                    <div class="symbol"><img src="icons/triple-sevens.svg" alt="Triple Sevens" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/triple-sevens.svg" alt="Triple Sevens" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/triple-sevens.svg" alt="Triple Sevens" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="symbol-column">
+                    <div class="symbol"><img src="icons/seven.svg" alt="Seven" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/seven.svg" alt="Seven" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/seven.svg" alt="Seven" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="symbol-column">
+                    <div class="symbol"><img src="icons/lemon.svg" alt="Lemon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/lemon.svg" alt="Lemon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/lemon.svg" alt="Lemon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="symbol-column">
+                    <div class="symbol"><img src="icons/watermelon.svg" alt="Watermelon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/watermelon.svg" alt="Watermelon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/watermelon.svg" alt="Watermelon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="symbol-column">
+                    <div class="symbol"><img src="icons/plum.svg" alt="Plum" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/plum.svg" alt="Plum" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/plum.svg" alt="Plum" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="symbol-column">
+                    <div class="symbol"><img src="icons/cherries.svg" alt="Cherry" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/cherries.svg" alt="Cherry" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/cherries.svg" alt="Cherry" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="symbol-column">
+                    <div class="symbol wild-symbol"><img src="icons/diamond.svg" alt="Diamond" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol wild-symbol"><img src="icons/diamond.svg" alt="Diamond" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol wild-symbol"><img src="icons/diamond.svg" alt="Diamond" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+            </div>
+            
+            <div class="paytable-payouts">
+                <div class="payout">100x</div>
+                <div class="payout">75x</div>
+                <div class="payout">50x</div>
+                <div class="payout">1.5x</div>
+                <div class="payout">1.2x</div>
+                <div class="payout">1.0x</div>
+                <div class="payout">0.5x</div>
+            </div>
+            
+            <div class="coins-left">🪙</div>
+            <div class="coins-right">🪙</div>
+        </div>
+
+        <!-- Slot Reels -->
+        <div class="slot-machine">
+            <div class="reels-container">
+                <div class="reel" id="reel1">
+                    <div class="symbol"><img src="icons/seven.svg" alt="Seven" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/seven.svg" alt="Seven" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/seven.svg" alt="Seven" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="reel" id="reel2">
+                    <div class="symbol"><img src="icons/lemon.svg" alt="Lemon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/lemon.svg" alt="Lemon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/lemon.svg" alt="Lemon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+                <div class="reel" id="reel3">
+                    <div class="symbol"><img src="icons/watermelon.svg" alt="Watermelon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/watermelon.svg" alt="Watermelon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                    <div class="symbol"><img src="icons/watermelon.svg" alt="Watermelon" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                </div>
+            </div>
+            
+            <div class="paylines">
+                <div class="payline active" data-line="Line 1"></div>
+                <div class="payline active" data-line="Line 2"></div>
+                <div class="payline active" data-line="Line 3"></div>
+                <div class="payline active" data-line="Line 4"></div>
+                <div class="payline active" data-line="Line 5"></div>
+            </div>
+            
+            <!-- Staggered payline indicators -->
+            <div class="payline-indicators">
+                <!-- Line 1: Middle, Top, Middle -->
+                <div class="payline-indicator line1"></div>
+                <div class="payline-indicator line1 middle"></div>
+                <div class="payline-indicator line1 right"></div>
+                
+                <!-- Line 2: Top, Middle, Bottom -->
+                <div class="payline-indicator line2"></div>
+                <div class="payline-indicator line2 middle"></div>
+                <div class="payline-indicator line2 right"></div>
+                
+                <!-- Line 3: Bottom, Middle, Top -->
+                <div class="payline-indicator line3"></div>
+                <div class="payline-indicator line3 middle"></div>
+                <div class="payline-indicator line3 right"></div>
+                
+                <!-- Line 4: Middle, Bottom, Middle -->
+                <div class="payline-indicator line4"></div>
+                <div class="payline-indicator line4 middle"></div>
+                <div class="payline-indicator line4 right"></div>
+                
+                <!-- Line 5: Top, Bottom, Top -->
+                <div class="payline-indicator line5"></div>
+                <div class="payline-indicator line5 middle"></div>
+                <div class="payline-indicator line5 right"></div>
+            </div>
+        </div>
+
+        <!-- Control Panel -->
+        <div class="control-panel">
+            <div class="bet-display">
+                <div class="bet-box">
+                    <div class="bet-amount">$0.05</div>
+                    <div class="bet-label">TOTAL BET</div>
+                </div>
+                <div class="win-box">
+                    <div class="win-amount">$0.00</div>
+                    <div class="win-label">WIN</div>
+                </div>
+                <div class="balance-box">
+                    <div class="balance-amount">$0.96</div>
+                    <div class="balance-label">BALANCE</div>
+                </div>
+            </div>
+            
+            <div class="control-buttons">
+                <button class="settings-btn">⚙️</button>
+                <button class="spin-btn" id="spinBtn">SPIN</button>
+                <button class="auto-spin-btn">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
